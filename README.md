@@ -10,3 +10,6 @@ A clean, aesthetic, and functional Hyprland configuration tailored for a smooth 
 
 ---
 Based on UWSM hyprland
+
+Things like steam starting on a particular workspace is commented and can be enabled
+**Important!! please uncomment and make sure you have set your pc refresh rate on based on your preference It wont work otherwise**
