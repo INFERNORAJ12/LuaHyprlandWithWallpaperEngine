@@ -12,4 +12,13 @@ A clean, aesthetic, and functional Hyprland configuration tailored for a smooth 
 Based on UWSM hyprland
 
 Things like steam starting on a particular workspace is commented and can be enabled
-**Important!! please uncomment and make sure you have set your pc refresh rate on based on your preference It wont work otherwise**
+**Important!! please uncomment and make sure you have set your pc refresh rate on based on your preference It wont work otherwise And also uncomment Codes in Wallpaper.lua and you can even add more as you wish**
+
+
+For this project to work you must have 
+Linux wallpaper engine arch :
+Installation Commands via paruInstall 
+package: 
+paru -S linux-wallpaperengine-gitUninstall 
+package: 
+paru -R linux-wallpaperengine-git
