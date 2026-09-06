@@ -1,5 +1,5 @@
 -- Load random wallpaper variable from /home/kannan/.config/hypr/config/wallpaper.lua
-local wallpaper_id = dofile("/home/kannan/.config/hypr/config/wallpaper.lua")
+local wallpaper_id = dofile("/home/kannan/.config/hypr/config/wallpaper.lua")--for storing wallpaper number from wallpaper.lua
 
 -- Auto-start config
 hl.on("hyprland.start", function ()
