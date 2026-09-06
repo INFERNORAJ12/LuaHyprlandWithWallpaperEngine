@@ -20,6 +20,14 @@ hl.window_rule({ match = { content = "game" }, workspace = gamingWorkspace })
 hl.window_rule({ match = { class = gamingApps }, workspace = gamingWorkspace })
 hl.window_rule({ match = { class = "^(steam)$", title = "^(Friends List)$" }, float = true })
 hl.window_rule({ match = { class = "^(steam)$", title = "^(Launching\\.{3})$" }, float = true, center = true, workspace = gamingWorkspace })
+
+-- >>> NEW LINE ADDED: Send Steam main client to Workspace 1 silently <<<
+hl.window_rule({
+    match     = { class = "^([Ss]team)$", title = "negative:^(Friends List|Launching\\.{3})$" },
+    workspace = "3 silent",
+})
+-- >>> END OF NEW LINE <<<
+
 hl.window_rule({
     match = {
         class         = gamingApps,
