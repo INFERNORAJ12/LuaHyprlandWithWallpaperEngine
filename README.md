@@ -1,4 +1,4 @@
-# 🪟 Just Right Hyprland Config
+# 🪟 LuaHyprlandWithWallpaperEngine
 
 A clean, aesthetic, and functional Hyprland configuration tailored for a smooth tiling window manager experience on Linux.
 
@@ -16,9 +16,15 @@ Things like steam starting on a particular workspace is commented and can be ena
 
 
 For this project to work you must have 
-Linux wallpaper engine arch :
-Installation Commands via paruInstall 
-package: 
-paru -S linux-wallpaperengine-gitUninstall 
-package: 
-paru -R linux-wallpaperengine-git
+Linux wallpaper engine arch:
+**STEPS**
+Any AUR helper is Fine
+
+  1>Installation Commands via yayInstall the package: 
+    yay -S linux-wallpaperengine-git
+
+  2>Installation Commands via paruInstall package: 
+    paru -S linux-wallpaperengine-git
+
+*if this dosent work add sudo or build the project from scratch
+https://github.com/Almamu/linux-wallpaperengine
