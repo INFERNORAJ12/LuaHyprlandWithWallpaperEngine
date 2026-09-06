@@ -9,4 +9,4 @@ A clean, aesthetic, and functional Hyprland configuration tailored for a smooth 
 - **Efficient Workflow:** Optimized keybindings for quick navigation and app launching.
 
 ---
-Based on UWSM hyprlanc
+Based on UWSM hyprland
