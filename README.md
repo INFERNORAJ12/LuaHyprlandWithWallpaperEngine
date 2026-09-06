@@ -1,30 +1,36 @@
 # 🪟 LuaHyprlandWithWallpaperEngine
 
-A clean, aesthetic, and functional Hyprland configuration tailored for a smooth tiling window manager experience on Linux.
-
-## 🚀 Features
-
-- **Dynamic Tiling:** Powered by [Hyprland](https://hyprland.org/).
-- **Smooth Animations:** Carefully tweaked window animations and transparency.
-- **Efficient Workflow:** Optimized keybindings for quick navigation and app launching.
+A clean, aesthetic, and functional [Hyprland](https://hyprland.org/) configuration tailored for a smooth tiling window manager experience on Linux, managed via **UWSM** (Universal Wayland Session Manager) and powered by **Wallpaper Engine**.
 
 ---
-Based on UWSM hyprland
 
-Things like steam starting on a particular workspace is commented and can be enabled
-**Important!! please uncomment and make sure you have set your pc refresh rate on based on your preference It wont work otherwise And also uncomment Codes in Wallpaper.lua and you can even add more as you wish**
+## ✨ Features
 
+- **Dynamic Tiling:** Responsive and intuitive window management via Hyprland.
+- **Fluid Animations:** Carefully tuned bezier curves, window physics, and active borders.
+- **Live Wallpapers:** Native Wallpaper Engine integration via `linux-wallpaperengine`.
+- **Streamlined Workflow:** Ergonomic keybindings for rapid workspace switching and app launching.
+- **Modular Config:** Workspace assignment rules (e.g., launching Steam on dedicated workspaces) ready to enable out of the box.
 
-For this project to work you must have 
-Linux wallpaper engine arch:
-**STEPS**
-Any AUR helper is Fine
+---
 
-  1>Installation Commands via yayInstall the package: 
-    yay -S linux-wallpaperengine-git
+## 📋 Prerequisites
 
-  2>Installation Commands via paruInstall package: 
-    paru -S linux-wallpaperengine-git
+Before setting up the configuration, ensure you have the following installed:
 
-*if this dosent work add sudo or build the project from scratch
-https://github.com/Almamu/linux-wallpaperengine
+1. **Hyprland & UWSM:** A functional base Hyprland session running through UWSM.
+2. **Steam (Legitimate Copy):** An active Steam account owning [Wallpaper Engine](https://store.steampowered.com/app/431960/Wallpaper_Engine/).  
+   > ⚠️ **Note:** Unofficial or cracked copies of Wallpaper Engine are **not supported**.
+3. **`linux-wallpaperengine`:** The background daemon for running Wallpaper Engine assets on Wayland/X11.
+
+---
+
+## ⚙️ Installation
+
+### 1. Install `linux-wallpaperengine`
+
+Install the latest build from the Arch User Repository (AUR) using your preferred helper:
+
+**Using `yay`:**
+```bash
+yay -S linux-wallpaperengine-git
