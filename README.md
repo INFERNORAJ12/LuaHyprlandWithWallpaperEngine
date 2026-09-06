@@ -108,7 +108,7 @@ sudo make install
 
 1. Open your monitor configuration:
    ```bash
-   nano ~/.config/hypr/monitors.conf
+   nano ~/.config/hypr/config/monitors.conf
    ```
 2. Specify your display's native output, resolution, and refresh rate:
    ```ini
@@ -124,7 +124,7 @@ Wallpapers are executed via `Wallpaper.lua`.
 
 1. Open the file in your preferred editor:
    ```bash
-   nano ~/.config/hypr/scripts/Wallpaper.lua
+   nano ~/.config/hypr/config/Wallpaper.lua
    ```
 2. **Uncomment** the desired wallpaper engine command line(s):
    ```lua
@@ -141,7 +141,7 @@ Rules for launching specific applications on dedicated workspaces are provided i
 
 1. Open your window rules configuration:
    ```bash
-   nano ~/.config/hypr/windowrules.conf
+   nano ~/.config/hypr/config/windowrules.conf
    ```
 2. Locate and uncomment the Steam assignment lines:
    ```ini
