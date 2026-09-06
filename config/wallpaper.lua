@@ -1,5 +1,6 @@
 local wallpapers = {
-    "1582915184",
+    --these are some example codes you can find in wallpaper engine. You can use custom ones on steam workshop. Just copy the code from steam url
+    --[["1582915184",
     "873452754",
     "1948961570",
     "951259031",
@@ -7,7 +8,7 @@ local wallpapers = {
     "827148653",
     "3110652378",
     "3165088714",
-    "2786967173"
+    "2786967173"]]
 }
 
 -- Seed the randomizer using current system time
